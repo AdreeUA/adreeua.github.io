@@ -41,7 +41,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-		<link href="assets/styles/app.min.css?t=1461942865232" rel="stylesheet">
+		<link href="assets/styles/app.min.css?t=1461958372203" rel="stylesheet">
 	</head>
 
 	<body class="page">
@@ -124,18 +124,31 @@
 							</li>
 						</ul>
 					</div>
-					<form action="#" class="contact-form contact__form">
+					<script type="text/javascript">
+						var submitted = false;
+
+					</script>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='message.html';}"></iframe>
+					<form action="https://docs.google.com/forms/d/10LBs_Yi0SxgN6BYA_ypeuBL9oaDYiye_keYJKwwlUvM/formResponse" method="POST"
+						id="ss-form" target="hidden_iframe" onsubmit="submitted=true;" class="contact-form contact__form">
 						<p class="contact-form__title">Контакт форма</p>
-						<label for="name" class="contact-form__icon contact-form__icon_name">
-							<input name="name" placeholder="Ваше Имя" type="text" id="name" title="Напишите Ваше имя" class="contact-form__item contact-form__item_name"
+						<label for="entry_532446702" class="contact-form__icon contact-form__icon_name">
+							<input placeholder="Ваше Имя" title="Напишите Ваше имя" type="text" name="entry.532446702" value="" id="entry_532446702"
+								dir="auto" aria-label="Имя  " aria-required="true" required="" class="contact-form__item contact-form__item_name ss-q-short"
 							/>
 						</label>
-						<label for="email" class="contact-form__icon contact-form__icon_email">
-							<input name="email" placeholder="Ваш Email-адрес" type="email" id="email" title="Напишите Ваш email-адрес" class="contact-form__item contact-form__item_email"
+						<label for="entry_557145027" class="contact-form__icon contact-form__icon_email">
+							<input placeholder="Ваш Email-адрес" type="email" name="entry.557145027" value="" id="entry_557145027" dir="auto" aria-label="Адрес  Пожалуйста введите email адрес"
+								aria-required="true" required="" title="Пожалуйста введите email адрес" class="contact-form__item contact-form__item_email ss-q-short"
 							/>
 						</label>
-						<textarea name="message" class="contact-form__item contact-form__item_message"></textarea>
-						<input name="btn" type="submit" value="Отправить" class="contact-form__btn btn" />
+						<textarea name="entry.474451094" rows="8" cols="0" id="entry_474451094" dir="auto" aria-label="Сообщение  Минимальное число символов: 0"
+							aria-required="true" required="" class="contact-form__item contact-form__item_message ss-q-long"></textarea>
+						<input type="submit" value="Отправить" name="submit" id="ss-submit" class="contact-form__btn jfk-button jfk-button-action btn"
+						/>
+						<input type="hidden" name="draftResponse" value="[,,&amp;quot;291205242843661132&amp;quot;]" />
+						<input type="hidden" name="pageHistory" value="0" />
+						<input type="hidden" name="fbzx" value="291205242843661132" />
 					</form>
 				</div>
 			</section>
