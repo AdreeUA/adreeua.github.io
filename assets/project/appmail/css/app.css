@@ -1264,7 +1264,7 @@ body.outlook p {
     width: auto !important; } }
 
 table.body {
-  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/images/bg.jpg); }
+  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/bg.jpg); }
 
 table.nav {
   background-color: transparent; }
@@ -1309,7 +1309,7 @@ table.header {
   padding: 11px 12px 12px;
   font-size: 14px;
   font-weight: 400;
-  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/images/data-bg.png);
+  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/data-bg.png);
   background-repeat: no-repeat; }
   .data img {
     display: inline-block;
@@ -1320,7 +1320,7 @@ table.header {
   vertical-align: middle; }
 
 .aplication {
-  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/images/bg-mobi.png);
+  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/bg-mobi.png);
   background-position: left bottom;
   background-repeat: repeat-x; }
 
@@ -1362,7 +1362,7 @@ table.header {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6); }
 
 .btn-inner {
-  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/images/button.png);
+  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/button.png);
   background-repeat: no-repeat;
   background-position: center 0;
   display: block;
@@ -1407,7 +1407,7 @@ table.header {
     padding-top: 142px; }
 
 .section-shadow {
-  background: url(http://adreeua.github.io/assets/project/appmail/assets/images/shadow.png) center center no-repeat; }
+  background: url(http://adreeua.github.io/assets/project/appmail/assets/img/shadow.png) center center no-repeat; }
 
 .list-row {
   margin-top: 32px;
@@ -1434,13 +1434,13 @@ table.header {
   text-decoration: underline; }
 
 .separator {
-  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/images/separator.png);
+  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/separator.png);
   background-repeat: no-repeat;
   background-position: center right; }
 
 table.footer {
   background-color: transparent;
-  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/images/bg.jpg); }
+  background-image: url(http://adreeua.github.io/assets/project/appmail/assets/img/bg.jpg); }
   table.footer p {
     color: #a2a2a3;
     font-size: 11px; }
