@@ -26,12 +26,13 @@
     <body>
         <!--+header()-->
         <div class="index-page section">
-            <div class="block index-page__header">
-                <p class="subtitle index-page__subtitle">Front-end Developer
+            <header class="header block">
+                <p class="subtitle header__subtitle">Front-end Developer
                 </p>
-                <h1 class="title index-page__title">Змиевской Андрей
+                <h1 class="title header__title">Змиевской Андрей
         </h1>
-                <ul class="into-list index-page__into-list">
+                <!--+e.disc Мне 26 лет, живу в г.Калуга.-->
+                <ul class="into-list header__into-list">
                     <li class="into-list__item">HTML
                     </li>
                     <li class="into-list__item">CSS
@@ -39,10 +40,10 @@
                     <li class="into-list__item">JavaScript
                     </li>
                 </ul>
-                <div class="avatar index-page__avatar">
+                <div class="avatar header__avatar">
                     <img src="static/img/assets/avatar/avatar.jpg" class="avatar__img" alt="" role="presentation" />
                 </div>
-                <ul class="social social_theme-header index-page__social">
+                <ul class="social social_theme-header header__social">
                     <li class="social__item">
                         <a href="https://vk.com/adree.zmey" title="Профиль во Вконтакте" target="_blank" class="social__link social__link_vk">
                             <svg class="icon icon_vk social__icon" width="548px" height="548px">
@@ -79,7 +80,7 @@
                             Добавать в друзья в Skype: Adnrew15011991</a>
                     </li>
                 </ul>
-            </div>
+            </header>
             <div class="block">
                 <h2 class="heading"><span class="heading__inner">Последние работы</span>
         </h2>
@@ -87,23 +88,26 @@
                     <article class="portfolio__item">
                         <div class="portfolio__content">
                             <a target="_blank" class="portfolio__item-thumb">
-                                <img src="static/img/assets/portfolio/shkolamam.png" alt="&amp;quot;Школа мам&amp;quot; - портал для мам" class="portfolio__img" title="" />
+                                <img src="static/img/assets/portfolio/doit.png" alt="&amp;quot;Сделай!&amp;quot; - благотворительный портал" class="portfolio__img" title="" />
                             </a>
-                            <h4 class="portfolio__title">&quot;Школа мам&quot; - портал для мам
+                            <h4 class="portfolio__title">&quot;Сделай!&quot; - благотворительный портал
               </h4>
-                            <div class="portfolio__text">Поддержка и верстка новых страниц, статей, исправление ошибок в клиенской части JS, написание нового функционала и обновление дизайна для портала &quot;Школа Мам&quot;. Не малая работа была проделана для адаптации портала под
-                                раздичные гаджеты. На портале было сделано 2е отдельные версии сайта: десктопная и мобильная.
+                            <div class="portfolio__text">Поддержка портала &quot;Сделай&quot;. Верстка новых страниц в связи с добавлением нового функционала, исправление и правки багов в клиенской части, верстке. Для портала было сдлеано 2е версии: десктопная и мобильная.
                             </div>
                         </div>
-                        <div class="portfolio__btn-wrap"><a class="btn btn_icon portfolio__btn" href="http://xn--80aa2aegbj2f.xn--p1ai/" target="_blank"><span class="btn__inner">
+                        <div class="portfolio__btn-wrap"><a class="btn btn_icon portfolio__btn" href="http://sdelai.org/ru" target="_blank"><span class="btn__inner">
             <svg class="icon icon_internet portfolio__icon" width="300px" height="300px">
                 <use xlink:href="svg-symbols.svg#internet"></use>
             </svg>
-        Web версия</span></a><a class="btn btn_icon portfolio__btn" href="http://xn--l1a.xn--80aa2aegbj2f.xn--p1ai/" target="_blank"><span class="btn__inner">
-            <svg class="icon icon_tablet portfolio__icon" width="300px" height="300px">
-                <use xlink:href="svg-symbols.svg#tablet"></use>
+        Web версия</span></a><a class="btn btn_icon portfolio__btn" href="https://adreeua.github.io/doit/desktop/dist/index.html" target="_blank"><span class="btn__inner">
+            <svg class="icon icon_computer portfolio__icon" width="300px" height="300px">
+                <use xlink:href="svg-symbols.svg#computer"></use>
             </svg>
-        Моб. версия</span></a>
+        Верстка</span></a><a class="btn btn_icon portfolio__btn" href="https://adreeua.github.io/doit/mobile/dist/index.html" target="_blank"><span class="btn__inner">
+            <svg class="icon icon_smartphone portfolio__icon" width="300px" height="300px">
+                <use xlink:href="svg-symbols.svg#smartphone"></use>
+            </svg>
+        Моб. верстка</span></a>
                         </div>
                     </article>
                     <article class="portfolio__item">
@@ -148,7 +152,11 @@
         Верстка</span></a>
                         </div>
                     </article>
-                </div><a class="btn btn_full" href="/portfolio.html"><span class="btn__inner">Больше работ</span></a>
+                </div><a class="btn btn_full btn_icon" href="/portfolio.html"><span class="btn__inner">
+            <svg class="icon icon_folder portfolio__icon" width="300px" height="300px">
+                <use xlink:href="svg-symbols.svg#folder"></use>
+            </svg>
+        Больше работ</span></a>
             </div>
             <div class="block">
                 <h2 class="heading"><span class="heading__inner">Навыки и технологии</span>
@@ -220,8 +228,6 @@
                                     </li>
                                     <li class="list__item">AJAX
                                     </li>
-                                    <li class="list__item">MVC
-                                    </li>
                                     <li class="list__item">Pixel Perfect
                                     </li>
                                     <li class="list__item">Redux
@@ -234,13 +240,13 @@
                                 <div class="skills__subtitle">Личные качества
                                 </div>
                                 <ul class="list">
-                                    <li class="list__item">Ответственный
+                                    <li class="list__item">Ответственность
                                     </li>
-                                    <li class="list__item">Трудолюбивый
+                                    <li class="list__item">Стремление развиваться
                                     </li>
-                                    <li class="list__item">Стремление к знаниям
+                                    <li class="list__item">Умение работать в команде
                                     </li>
-                                    <li class="list__item">Открытость ко всему новому
+                                    <li class="list__item">Исполнительность
                                     </li>
                                 </ul>
                                 <p class="skills__disc">Мне интересен мир front-end разработки, поэтому я всегда готов к изучению новой методологии, библиотеки, фреймворка. Знания мои не идеальны, но я всегда стараюсь повысить свой скил в написании и понимании кода
