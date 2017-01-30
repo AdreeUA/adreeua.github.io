@@ -675,6 +675,12 @@ a:hover {
   content: '';
 }
 
+.portfolio-page__discr {
+  margin-bottom: 1.875rem;
+  color: #f39c12;
+  font-size: 1.1875rem;
+}
+
 .section {
   padding: 2.625rem 1.9375rem 0;
 }
